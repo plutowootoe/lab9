@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane id="AnchorPane" prefHeight="500" prefWidth="350" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment.HelloController">
+    <children>
+        <Button layoutX="150" layoutY="40" minWidth="50" text="1" onAction="#displayTime" fx:id="button1" />
+        <Button layoutX="200" layoutY="40" minWidth="50" text="2" onAction="#displayTime" fx:id="button2" />
+        <Button layoutX="250" layoutY="40" minWidth="50" text="3" onAction="#displayTime" fx:id="button3" />
+        <Button layoutX="150" layoutY="70" minWidth="50" text="4" onAction="#displayTime" fx:id="button4" />
+        <Button layoutX="200" layoutY="70" minWidth="50" text="5" onAction="#displayTime" fx:id="button5" />
+        <Button layoutX="250" layoutY="70" minWidth="50" text="6" onAction="#displayTime" fx:id="button6" />
+        <Button layoutX="150" layoutY="100" minWidth="50" text="7" onAction="#displayTime" fx:id="button7" />
+        <Button layoutX="200" layoutY="100" minWidth="50" text="8" onAction="#displayTime" fx:id="button8" />
+        <Button layoutX="250" layoutY="100" minWidth="50" text="9" onAction="#displayTime" fx:id="button9" />
+        <Button layoutX="150" layoutY="130" minWidth="50" text="0" onAction="#displayTime" fx:id="button0" />
+        <Button layoutX="200" layoutY="130" minWidth="50" text="Start" onAction="#displayTime" fx:id="buttonStart" />
+        <Button layoutX="250" layoutY="130" minWidth="50" text="Stop" onAction="#displayTime" fx:id="buttonStop" />
+        <Label layoutX="10" layoutY="120" minHeight="16" minWidth="50" fx:id="label" text="Place Food Here"/>
+        <TextField layoutX="150" layoutY="1" minHeight="16" minWidth="160" fx:id="TextField" promptText="Time to be displayed here"/>
+    </children>
+</AnchorPane>
